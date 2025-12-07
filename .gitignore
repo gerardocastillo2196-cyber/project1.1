@@ -1,0 +1,9 @@
+# Entorno virtual de Python
+venv/
+.venv/
+
+# Ignorar directorios de caché de Python
+__pycache__/
+
+# Ignorar archivos compilados de Python
+*.pyc
