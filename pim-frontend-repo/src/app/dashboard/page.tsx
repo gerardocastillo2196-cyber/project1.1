@@ -38,7 +38,7 @@ export default function Dashboard() {
 
     try {
       // Llamamos al Backend enviando el token y el país
-      const res = await fetch(`http://127.0.0.1:8000/api/v1/products/?country_code=${selectedCountry}`, {
+      const res = await fetch(`http://192.168.0.10:8000	/api/v1/products/?country_code=${selectedCountry}`, {
         headers: {
           Authorization: `Bearer ${token}`, // Aquí va tu pase VIP
         },
